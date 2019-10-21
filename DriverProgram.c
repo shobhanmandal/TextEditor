@@ -983,6 +983,12 @@ void normalMode()
 	}	
 }
 
+int testingFunction(char *argv[])
+{
+	if (argv[1] == NULL)
+		printf("Argv is NULL");
+}
+
 int main(int argc, char *argv[]) //This helps in capturing the argument in this case the file name
 {
 	if(argv[1]==NULL)
